@@ -6,6 +6,7 @@ public class StudentEntity(){
     private String username;
     private String password;
     private date createde;
+
     public date getCreated(){
         return created;
     }
@@ -24,7 +25,19 @@ public class StudentEntity(){
     public void setName(String name){
         this.name = name;
     }
-    public String getEmail
+    public String getEmail(){
+        return email;
+    }
+    public void setEmail(String email){
+        this.email = email;
+    }
+    public String getpassword(){
+        return password;
+    }
+    public void setpassword(String password){
+        this.password = password;
+    }
+    public SampleEnitty
 
 
 }
