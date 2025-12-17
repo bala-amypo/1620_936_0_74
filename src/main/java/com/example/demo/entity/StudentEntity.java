@@ -54,6 +54,9 @@ public class StudentEntity(){
         this.password=password;
         this.date=date;
     }
+    public class StudentEntity{
+        
+    }
 
 
 }
