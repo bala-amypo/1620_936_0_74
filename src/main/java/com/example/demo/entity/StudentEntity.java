@@ -1,5 +1,8 @@
 package com.example.demo.entity
-@entity
+@Entity
 public class StudentEntity(){
+    private Integer id;
+    private  Email;
+
 
 }
