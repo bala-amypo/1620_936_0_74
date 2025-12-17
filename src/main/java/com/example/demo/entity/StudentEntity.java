@@ -5,7 +5,7 @@ import java.util.Date;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import jakarta.parsistence.Id;
+import jakarta.persistence.Id;
 
 @Entity
 public class StudentEntity{
@@ -18,7 +18,7 @@ public class StudentEntity{
     private Date createde;
 
     public Date getCreated(){
-        return created;
+        return Created;
     }
     public void setCreated(Date created){
         this.created = created;
@@ -47,7 +47,7 @@ public class StudentEntity{
     public void setpassword(String password){
         this.password = password;
     }
-    public SampleEnitty(Integer id, String username, String  email, String  password,Date created){
+    public StudentEntity(Integer id, String username, String  email, String  password,Date created){
         this.id=id;
         this.username=username;
         this.email=email;
