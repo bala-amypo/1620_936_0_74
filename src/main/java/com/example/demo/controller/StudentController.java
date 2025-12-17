@@ -10,4 +10,10 @@ public class StudentController{
     @Autowired StudentService ser;
 
 
+
+    @postMapping("/post")
+
+
+
+
 }
