@@ -15,10 +15,11 @@ public class StudentEntity{
     private String email;
     private String username;
     private String password;
-    private Date createde;
+    private Date created;
+    
 
     public Date getCreated(){
-        return Created;
+        return created;
     }
     public void setCreated(Date created){
         this.created = created;
@@ -30,10 +31,10 @@ public class StudentEntity{
         this.id = id;
     }
     public String getName(){
-        return name;
+        return Name;
     }
     public void setName(String name){
-        this.name = name;
+        this.name = Name;
     }
     public String getEmail(){
         return email;
