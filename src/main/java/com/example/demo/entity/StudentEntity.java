@@ -17,7 +17,7 @@ public class StudentEntity(){
     private String password;
     private Date createde;
 
-    public date getCreated(){
+    public Date getCreated(){
         return created;
     }
     public void setCreated(Date created){
@@ -47,7 +47,13 @@ public class StudentEntity(){
     public void setpassword(String password){
         this.password = password;
     }
-    public SampleEnitty(Integer id, String username, String  email, String  password,String )
+    public SampleEnitty(Integer id, String username, String  email, String  password,Date created){
+        this.id=id;
+        this.username=username;
+        this.email=email;
+        this.password=password;
+        this.date=date;
+    }
 
 
 }
