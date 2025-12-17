@@ -8,7 +8,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.parsistence.Id;
 
 @Entity
-public class StudentEntity(){
+public class StudentEntity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
@@ -21,7 +21,7 @@ public class StudentEntity(){
         return created;
     }
     public void setCreated(Date created){
-        this.created = created
+        this.created = created;
     }
     public Integer getId(){
         return id;
