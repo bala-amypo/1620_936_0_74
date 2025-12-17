@@ -47,7 +47,7 @@ public class StudentEntity(){
     public void setpassword(String password){
         this.password = password;
     }
-    public SampleEnitty(Integer id, String username, String  email, String  password,String)
+    public SampleEnitty(Integer id, String username, String  email, String  password,String )
 
 
 }
