@@ -12,6 +12,8 @@ import lombok.Setter;
 import lombok.Getter;
 @Entity
 @Data
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 public class StudentDetails{
