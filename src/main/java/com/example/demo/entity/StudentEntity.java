@@ -10,6 +10,7 @@ import jakarta.persistence.GenerationType;
 import lombok.Data;
 import lombok.Getter;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
