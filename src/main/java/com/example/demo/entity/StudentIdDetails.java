@@ -22,7 +22,7 @@ public class StudentIdDetails{
     private Integer id;
     private int id_no;
     @OneToOne
-    private StudentDetails student;
+    private StudentDetailsEntity student;
 }
 
 
