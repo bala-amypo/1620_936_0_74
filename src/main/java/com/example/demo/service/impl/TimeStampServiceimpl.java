@@ -1,12 +1,5 @@
 
 
----------- Forwarded message ---------
-From: 727824TUCS257 PAVEESH M <727824tucs257@skct.edu.in>
-Date: Fri, Dec 19, 2025 at 8:24 AM
-Subject:
-To: <7272824tucs215@skct.edu.in>
-
-
 package com.example.demo.service.impl;
 
 import com.example.demo.entity.TimeStampEntity;
