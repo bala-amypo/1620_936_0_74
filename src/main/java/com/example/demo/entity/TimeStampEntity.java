@@ -10,7 +10,7 @@ import java.util.*;
 @Setter
 @AllAgrsConstructor
 @NoAgrsConstructor
-public class TimeSampEntity{
+public class TimeStampEntity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Long id;
