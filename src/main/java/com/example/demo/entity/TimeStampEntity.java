@@ -23,6 +23,11 @@ public class TimeStampEntity{
         LocalDateTime now = LocalDateTime().now();
         this.createdAt = now;
         this.updatedAt = now;
-        
+
     }
+    @PreUpdate
+    public void Onupdate(){
+        LocalDateTime now = LocalDateTime().now();
+        this.updatedAt = now; 
+    } 
 }
