@@ -5,7 +5,7 @@ import com.example.demo.service.ValidationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.demo.repository.ValidationRepository;
 import com.example.demo.entity.ValidationEntity;
-
+import com.example.demo.exception.ValidationException;
 
 @Service
 public class ValidationServiceimpl implements ValidationService{
@@ -17,6 +17,6 @@ public class ValidationServiceimpl implements ValidationService{
 
     @Override
     public ValidationEntity getData(int id){
-        return student.findById(id).orElseThrow()-> new validationException("Inv")
+        return student.findById(id).orElseThrow(-> new validationException("Invalid Id" + id));
     }
 }
