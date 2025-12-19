@@ -16,7 +16,7 @@ import lombok.Getter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentDetails{
+public class StudentDetailsEntity{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private Integer id;
